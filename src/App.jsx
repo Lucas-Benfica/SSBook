@@ -1,12 +1,17 @@
-import { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { useQuery, gql } from '@apollo/client'
+import HomePage from "./pages/HomePage";
+import BookPage from "./pages/BookPage";
 
 function App() {
 
   return (
-    <>
-      <BooksComponent />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/book/:id" element={<BookPage />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
@@ -21,6 +26,8 @@ const GET_BOOKS = gql`
     }
   }
 `;
+
+// Exemplos ->
 
 const BooksComponent = () => {
   const { loading, error, data } = useQuery(GET_BOOKS);
