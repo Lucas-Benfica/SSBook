@@ -27,7 +27,7 @@ export const OptionsBody = styled.div`
         display: none;
     }
 `
-export const FavoritesBooksContainer = styled.div`
+export const FavoriteBooksContainer = styled.div`
     width: 100%;
     height: 319px;
     margin: 32px 0;

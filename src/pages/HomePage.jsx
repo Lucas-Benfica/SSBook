@@ -1,6 +1,7 @@
+import FavoriteBooks from "../components/FavoriteBooks";
 import Header from "../components/Header";
 import Options from "../components/OptionsHeader";
-import { Body, FavoritesBooksContainer, Home, OptionsBody, TitleDiv } from "../styles/HomeStyles";
+import { Body, FavoriteBooksContainer, Home, OptionsBody, TitleDiv } from "../styles/HomeStyles";
 
 export default function HomePage() {
 
@@ -11,12 +12,13 @@ export default function HomePage() {
                 <OptionsBody>
                     <Options />
                 </OptionsBody>
-                <FavoritesBooksContainer>
+                <FavoriteBooksContainer>
                     <TitleDiv>
                         <h1>Livros Favoritos</h1>
                         <h2>ver todos</h2>
                     </TitleDiv>
-                </FavoritesBooksContainer>
+                    <FavoriteBooks />
+                </FavoriteBooksContainer>
             </Body>
         </Home>
     )
