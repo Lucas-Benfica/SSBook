@@ -8,6 +8,7 @@ export const HeaderPhoneStyled = styled.div`
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -47,7 +48,7 @@ export const OptionsDiv = styled.div`
     height: 48px;
     display: flex;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #ffffff;
     padding: 0 20px;
 `
 export const Option = styled(({ text, ...rest }) => <div {...rest} />)`
@@ -60,6 +61,9 @@ export const Option = styled(({ text, ...rest }) => <div {...rest} />)`
     display: flex;
     align-items: center;
     justify-content: center;
+    p{
+        z-index: 1;
+    }
     
     div{
         display: ${(prop) => (prop.selected === prop.text) ? "flex" : "none" };
@@ -70,5 +74,6 @@ export const Option = styled(({ text, ...rest }) => <div {...rest} />)`
         position: absolute;
         left: 0;
         bottom: 0;
+        z-index: 1;
     }
 `

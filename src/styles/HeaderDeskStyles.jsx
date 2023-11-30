@@ -9,6 +9,7 @@ export const HeaderDeskStyled = styled.div`
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 10;
     padding-left: 13.5%;
     padding-right: 32px;
     display: flex;
@@ -85,6 +86,10 @@ export const UserInfo = styled.div`
         width:32px;
         height: 32px;
 
+    }
+    p{
+        width: 75px;
+        word-wrap: break-word;
     }
 `;
 

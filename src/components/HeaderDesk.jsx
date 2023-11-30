@@ -44,7 +44,7 @@ export default function HeaderDesk() {
             
             <UserInfo>
                 <img src={userIcon} />
-                UsersNames
+                <p>UserName</p>
             </UserInfo>
         </HeaderDeskStyled>
     )
