@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Home = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #F7F7F7;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
@@ -58,6 +58,7 @@ export const TitleDiv = styled.div`
     }
     @media (min-width: 480px) {
         margin-bottom: 24px;
+        
         h1{
             font-size: 28px;
             line-height: 32.8px;
@@ -66,5 +67,25 @@ export const TitleDiv = styled.div`
             font-size: 16px;
             line-height: 18.75px;
         }
+    }
+`
+
+export const LibraryContainer = styled.div`
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    box-shadow: 0px 1px 1px 0px #0000000D;
+    background-color: #FFFFFF;
+    border-radius: 32px 0px 0px 0px;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 480px) {
+        padding: 32px 13.5% 0 12px;
+        width: 89%;
+        margin-left: 11%;
+        box-shadow: 0px 0px 8px 0px #0000001A;
     }
 `
