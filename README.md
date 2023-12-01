@@ -2,7 +2,7 @@
 
 SSBOOK é uma biblioteca virtual em desenvolvimento, com foco no front-end. As funcionalidades do projeto estão em constante evolução, e atualmente, é possível explorar informações sobre os livros.
 
-O projeto pode ser acessado [aqui](link_para_o_deploy).
+O projeto pode ser acessado [aqui](ssbook-lucas-benfica.vercel.app).
 
 **Observação:** Este projeto está em desenvolvimento, e suas funcionalidades estão sendo aprimoradas.
 
