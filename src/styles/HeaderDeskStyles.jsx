@@ -57,6 +57,7 @@ export const Option = styled.div`
     font-weight: 700;
     display: flex;
     align-items: center;
+    cursor: pointer;
 `
 
 export const PlusIcon = styled(AiFillPlusCircle)`
@@ -82,10 +83,11 @@ export const UserInfo = styled.div`
     font-weight: 700;
     display: flex;
     align-items: center;
+    cursor: pointer;
     img{
         width:32px;
         height: 32px;
-
+        
     }
     p{
         width: 75px;
@@ -98,6 +100,7 @@ export const InputImg = styled.img`
     right: 10px;
     top: 10px;
     display: flex;
+    cursor: pointer;
 
     @media (max-width: 870px) {
         display: none;

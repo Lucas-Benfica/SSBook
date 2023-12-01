@@ -55,6 +55,7 @@ export const TitleDiv = styled.div`
         font-size: 14px;
         line-height: 16.4px;
         color: #A076F2;
+        cursor: pointer;
     }
     @media (min-width: 480px) {
         margin-bottom: 24px;

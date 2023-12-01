@@ -15,6 +15,7 @@ export const AuthorsDiv = styled.div`
 `
 
 export const AuthorCard = styled.div`
+    cursor: pointer;
     min-width: 248px;
     height: 69px;
     border: 1px solid #E0E0E0;

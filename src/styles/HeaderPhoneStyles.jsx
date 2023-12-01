@@ -32,6 +32,7 @@ export const LogoDiv = styled.div`
     }
 `
 export const LogoStyled = styled.div`
+    cursor: pointer;
     display: flex;
     h1{
         color: #555555;
@@ -61,6 +62,7 @@ export const Option = styled(({ text, ...rest }) => <div {...rest} />)`
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     p{
         z-index: 1;
     }

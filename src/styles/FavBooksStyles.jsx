@@ -15,6 +15,7 @@ export const CardFavoriteBook = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    cursor: pointer;
 
     img{
         width: 136px;

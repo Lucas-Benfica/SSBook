@@ -33,7 +33,7 @@ export default function FavoriteAuthors(){
                             <img src={authors.picture} />
                             <div>
                             <h1>{authors.name}</h1>
-                            <h2>{authors.booksCount}</h2>
+                            <h2>{authors.booksCount} livros</h2>
                             </div>
                         </AuthorCard>
                     )
