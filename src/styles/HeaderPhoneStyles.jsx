@@ -52,6 +52,7 @@ export const OptionsDiv = styled.div`
     align-items: center;
     background-color: #ffffff;
     padding: 0 20px;
+    border-radius: 0 0 30px 0;
 `
 export const Option = styled(({ text, ...rest }) => <div {...rest} />)`
     width: 94px;
