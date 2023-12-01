@@ -87,7 +87,7 @@ export const UserInfo = styled.div`
     img{
         width:32px;
         height: 32px;
-        
+        border-radius: 50px;
     }
     p{
         width: 75px;

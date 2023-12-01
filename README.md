@@ -1,8 +1,41 @@
-# React + Vite
+# SSBOOK - Biblioteca Virtual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SSBOOK é uma biblioteca virtual em desenvolvimento, com foco no front-end. As funcionalidades do projeto estão em constante evolução, e atualmente, é possível explorar informações sobre os livros.
 
-Currently, two official plugins are available:
+O projeto pode ser acessado [aqui](link_para_o_deploy).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Observação:** Este projeto está em desenvolvimento, e suas funcionalidades estão sendo aprimoradas.
+
+## Funcionalidades Principais
+
+- Ao clicar em um livro, você será redirecionado para a página específica do livro, onde poderá obter mais informações sobre o livro e seu autor.
+
+## Próximas Funcionalidades
+
+As próximas funcionalidades a serem desenvolvidas incluem:
+
+- Criação de usuário
+- Pesquisa de livros e autores
+- Página de autor
+- Favoritar livros e autores
+- Adicionar livros
+
+## Como Rodar Localmente
+
+Para executar o projeto localmente, siga estas instruções:
+
+1. Clone ou faça o download deste repositório.
+2. Execute o comando `npm install` para instalar as dependências necessárias.
+3. Após a instalação, use o comando `npm run dev` para iniciar o servidor local.
+
+O projeto foi desenvolvido com [Vite](https://vitejs.dev/) e utiliza [ReactJS](https://reactjs.org/) e [GraphQL](https://graphql.org/).
+
+## Importante
+
+Como se trata de um banco de dados simples, o link da API está diretamente no código para facilitar a revisão. À medida que o projeto e o banco de dados crescerem, é recomendável mover o link da API e outras informações importantes para um arquivo `.env`.
+
+## Informações de Contato
+
+- Email: lucassoaresbenfica@gmail.com
+
+Sinta-se à vontade para entrar em contato em caso de dúvidas, sugestões ou colaborações. Obrigado por explorar o SSBOOK!
