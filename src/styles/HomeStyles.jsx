@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Home = styled.div`
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     background-color: #F7F7F7;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
@@ -70,7 +71,6 @@ export const TitleDiv = styled.div`
         }
     }
 `
-
 export const LibraryContainer = styled.div`
     width: 100%;
     min-height: 600px;
@@ -82,11 +82,13 @@ export const LibraryContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 65px;
 
     @media (min-width: 480px) {
         padding: 32px 13.5% 0 12px;
         width: 89%;
         margin-left: 11%;
         box-shadow: 0px 0px 8px 0px #0000001A;
+        padding-bottom: 80px;
     }
 `

@@ -14,7 +14,7 @@ export const FooterContainer = styled.div`
   justify-content: space-between;
 
   @media (min-width: 480px) {
-    height: 80px;
+    height: 60px;
     background-color: #A076F2;
     box-shadow: none;
     padding: 0 13.5%;
