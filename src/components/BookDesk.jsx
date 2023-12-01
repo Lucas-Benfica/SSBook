@@ -34,10 +34,10 @@ export default function BookDesk({ book }) {
                 <Description>
                     <div>
                         {book.description.split('\n\n').map((paragraph, index) => (
-                            <>
-                                <p key={index}>{paragraph}</p>
+                            <div key={index}>
+                                <p>{paragraph}</p>
                                 <br/>
-                            </>
+                            </div>
                         ))}
                     </div>
                     <h1>

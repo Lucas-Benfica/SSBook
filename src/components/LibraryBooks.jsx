@@ -1,7 +1,10 @@
 import { gql, useQuery } from "@apollo/client";
 import { Book, ContainerBooks } from "../styles/LibBooksStyles";
+import { useNavigate } from "react-router-dom";
 
 export default function LibraryBooks () {
+
+    const navigate = useNavigate();
     
     const GET_BOOKS = gql`
         query {
@@ -29,7 +32,7 @@ export default function LibraryBooks () {
         <ContainerBooks>
             {
                 data.allBooks.map( book => (
-                    <Book key={book.id}>
+                    <Book key={book.id} onClick={ ()=> navigate(`/book/${book.id}`)}>
                         <img src={book.cover} />
                         <div>
                             <h1>{book.name}</h1>

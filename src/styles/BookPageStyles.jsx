@@ -5,7 +5,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import styled from "styled-components";
 
 export const HomeBook = styled(Home)`
-    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 25%), url(${(props) => props.bookCover});
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 25%), url(${(props) => props.bookcover});
     background-size: cover;
     background-position: center;
     width: 100%;
